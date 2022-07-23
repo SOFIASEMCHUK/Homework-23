@@ -12,11 +12,11 @@ html {
 h1 {
     text-align: center;
     font: 600 2rem Arial;
-    padding-bottom: 20px;
 }
 h2 {
     text-align: center;
     font: 600 1.5rem Arial;
+    padding-top: 60px;
 }
 .navbar-brand img{
     max-width: 30px;
@@ -35,4 +35,49 @@ h2 {
 }
 .progress {
     margin-bottom: 10px;
+}
+
+
+.net2 .container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.carousel-inner img {
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 75%;
+}
+
+.btn-warning {
+    padding: 5px 10px;
+}
+input {
+    border: 1px solid yellow;
+    background-color: rgba(249, 249, 129, 0.5);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.btn-secondary {
+    --bs-btn-bg: #1670bf;
+    --bs-btn-border-color: #e8d018;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+article {
+    padding-left: 20px;
+}
+.section__desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section__desc img {
+    max-width: 400px;
+    margin: 0 auto;
 }
