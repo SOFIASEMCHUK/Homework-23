@@ -1,0 +1,38 @@
+@import "eternal.css";
+@import "reset.css";
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+}
+h1 {
+    text-align: center;
+    font: 600 2rem Arial;
+    padding-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    font: 600 1.5rem Arial;
+}
+.navbar-brand img{
+    max-width: 30px;
+    height: auto;
+}
+.net1__card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.card-title {
+    font-weight: 600;
+}
+.net1__progress {
+    padding-top: 10px;
+}
+.progress {
+    margin-bottom: 10px;
+}
