@@ -118,3 +118,8 @@ main {
 .section__net5 {
     padding-top: 20px;
 }
+
+.section-cards {
+    display: flex;
+    justify-content: space-around;
+}
