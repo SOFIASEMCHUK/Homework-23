@@ -211,86 +211,91 @@
             <header>
                 <nav class="center navbar navbar-expand-lg bg-light">
                     <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Print</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Wether</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">People</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown link
-                            </a>
-                            <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Print</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Wether</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">People</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                                </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
                             </ul>
-                        </li>
-                        </ul>
+                        </div>
                     </div>
-                    </div>
-                    <button type="button" class="btn btn-warning">Touch me</button>
+                    <button type="button" class="btn btn-warning">Touch</button>
                 </nav>
             </header>
             <main>
-                <aside>
-                    <div class="net3__aside">
-                        <div class="net3__aside-form">
-                            <form action="getform.php" method="get">
-                                First name: <input type="text" name="first_name"><br />
-                                Last name: <input type="text" name="last_name"><br />
-                                E-mail: <input type="email" name="user_email"><br />
-                                <input type="submit" value="Submit">
-                            </form>
-                        <div class="net3__aside-offcanvas">
-                            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                                Touch
-                            </a>
-                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                                <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <article>
+                    <section>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Accordion Item #1
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                 </div>
-                                <div class="offcanvas-body">
-                                <div>
-                                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum qui, tempore asperiores obcaecati fugit eos sed dolore quam aperiam.
-                                </div>
-                                <div class="dropdown mt-3">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                    Dropdown button
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
-                                </div>
+                              </div>
                             </div>
-                        </div>
-                    </div>
-                </aside>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Accordion Item #2
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Accordion Item #3
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </section>
+                </article>
                 <article>
                     <section>
                         <div class="section__title">
@@ -376,6 +381,7 @@
                                 </label>
                                 <input type="submit" value="Submit">
                             </form>
+                        </div>
                         <div class="net4__aside-offcanvas">
                             <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                                 Touch
@@ -774,6 +780,241 @@
             </main>
         </div>
     </div>
+    <div class="net9">
+        <div class="container">
+            <h2>Сетка 9</h2>
+            <header>
+                <nav class="center navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Eat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Print</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nuts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Animals</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <button type="button" class="btn btn-warning">Touch</button>
+                </nav>
+            </header>
+            <main>
+                <aside>
+                    <div class="net9__aside">
+                        <div class="net9__aside-form">
+                            <form action="getform.php" method="get">
+                                <label>First name: 
+                                    <input type="text" name="first_name"><br />
+                                </label>
+                                <label>Last name: 
+                                    <input type="text" name="last_name"><br />
+                                </label>
+                                <label>E-mail: 
+                                </br>
+                                    <input type="email" name="user_email"><br />
+                                </label>
+                                <input type="submit" value="Submit">
+                            </form>
+                        <div class="net5__aside-offcanvas">
+                            <button type="button" class="btn btn-secondary"
+                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip"
+                                data-bs-title="Touch this button">
+                                Tooltip
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                <div>
+                                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum qui, tempore asperiores obcaecati fugit eos sed dolore quam aperiam.
+                                </div>
+                                <div class="dropdown mt-3">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                    Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <article>
+                    <section>
+                        <div class="section__title">
+                            <div class="text-bg-success p-3">smile</div>
+                        </div>
+                        <div class="section__desc">
+                            <div class="section__desc-img">
+                                <img src="img/smile.jpg" alt="smile">
+                            </div>
+                            <div class="section__desc-text">
+                                <p class="text-center">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque corrupti saepe hic maiores eum tempora cum excepturi atque numquam repellat commodi corporis maxime soluta, esse dicta! Voluptatibus sunt assumenda illo aliquid velit dolor sapiente at aut earum, natus, suscipit nisi atque? Voluptatibus ipsa a sed iure illo minus, magni vitae!  
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </main>
+            <main>
+                <article>
+                    <section>
+                        <div class="section__net9 text-center">
+                            <div class="section__net9-title">
+                                <div class="text-bg-danger p-3">Smile Day</div>
+                            </div>
+                            <div class="section__net9-desc">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi perferendis, fuga corrupti atque ipsam ratione harum enim in aliquid numquam rem tenetur incidunt porro, eum reiciendis iure dolores maxime accusantium? Porro atque itaque dolore deserunt dolores ullam autem! Consectetur veritatis deleniti nam adipisci, autem cum illum quas quaerat tempore pariatur repellendus ipsa asperiores exercitationem incidunt ut provident eveniet ipsum iure harum accusantium tenetur! Ipsam non dolor quibusdam repellendus quasi suscipit fugit! Deserunt ea, ut magnam optio repellendus at earum numquam excepturi ad omnis natus neque tenetur dolore, provident expedita delectus voluptate odit! Saepe accusamus consectetur rerum dolor sint recusandae aspernatur.</p>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </main>
+        </div>
+    </div>
+    <div class="net10">
+        <div class="container">
+            <h2>Сетка 10</h2>
+            <header>
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="img/cool.png" alt="this is cool"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <article>
+                    <section>
+                        <div class="net10__card">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/smile.jpg" class="card-img-top" alt="smile">
+                                <div class="card-body">
+                                <h3 class="card-title">Card title</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tenetur repudiandae excepturi neque nulla, aliquam accusamus? Culpa aut illum ipsa.</p>
+                                <a href="#" class="btn btn-primary">Go</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/smile.jpg" class="card-img-top" alt="smile">
+                                <div class="card-body">
+                                <h3 class="card-title">Card title</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tenetur repudiandae excepturi neque nulla, aliquam accusamus? Culpa aut illum ipsa.</p>
+                                <a href="#" class="btn btn-primary">Go</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/smile.jpg" class="card-img-top" alt="smile">
+                                <div class="card-body">
+                                <h3 class="card-title">Card title</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tenetur repudiandae excepturi neque nulla, aliquam accusamus? Culpa aut illum ipsa.</p>
+                                <a href="#" class="btn btn-primary">Go</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="net10__list">
+                            <ul class="list-group">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item">A fourth item</li>
+                                <li class="list-group-item">And a fifth one</li>
+                            </ul>
+                            <ul class="list-group">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item">A fourth item</li>
+                                <li class="list-group-item">And a fifth one</li>
+                            </ul>
+                            <ul class="list-group">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item">A fourth item</li>
+                                <li class="list-group-item">And a fifth one</li>
+                            </ul>
+                       </div>
+                    </section>
+                </article>
+            </main>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
 </html>

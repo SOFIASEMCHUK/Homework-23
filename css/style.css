@@ -61,6 +61,12 @@ h2 {
     border-radius: 5px;
     margin-bottom: 5px;
 }
+.accordion-header {
+    padding-top: 0;
+}
+.accordion {
+    padding-bottom: 10px;
+}
 .btn-secondary {
     --bs-btn-bg: #1670bf;
     --bs-btn-border-color: #e8d018;
@@ -136,4 +142,42 @@ h2 {
 .net8 .section-cards {
     display: flex;
     justify-content: space-around;
+}
+
+.net9 article {
+    padding-right: 20px;
+}
+.net9 input {
+    border: 1px solid rgb(244, 95, 31);
+    background-color: rgba(246, 106, 6, 0.432);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.section__desc-text {
+    padding-left: 10px;
+}
+.net9 main {
+    display: flex;
+}
+.section__net9 {
+    padding-top: 20px;
+}
+.net9 .btn-warning {
+    --bs-btn-color: rgb(255, 255, 255);
+    --bs-btn-bg: #f260268c;
+    --bs-btn-border-color: #001351;
+}
+
+.net10__card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.net10__progress {
+    padding-top: 10px;
+}
+.net10__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
 }
