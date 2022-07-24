@@ -65,10 +65,7 @@ h2 {
     --bs-btn-bg: #1670bf;
     --bs-btn-border-color: #e8d018;
 }
-main {
-    display: flex;
-    justify-content: space-between;
-}
+
 .net3 article {
     padding-left: 20px;
 }
@@ -119,7 +116,15 @@ main {
     padding-top: 20px;
 }
 
-.section-cards {
+.net6 .section-cards {
     display: flex;
     justify-content: space-around;
+}
+
+.net7 .section-cards {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    margin-bottom: 20px;
 }
