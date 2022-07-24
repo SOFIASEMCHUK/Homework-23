@@ -125,6 +125,15 @@ h2 {
     display: flex;
     justify-content: space-around;
 }
-.card {
+.net7 .card {
     margin-bottom: 20px;
+}
+
+.net8 article {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.net8 .section-cards {
+    display: flex;
+    justify-content: space-around;
 }
