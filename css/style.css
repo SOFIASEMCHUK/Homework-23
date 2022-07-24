@@ -74,6 +74,11 @@ h2 {
 
 .net3 article {
     padding-left: 20px;
+    padding-bottom: 10px;
+}
+.net3 main {
+    display: flex;
+    justify-content: space-between;
 }
 .section__desc {
     display: flex;
