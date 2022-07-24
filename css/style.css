@@ -55,7 +55,7 @@ h2 {
 .btn-warning {
     padding: 5px 10px;
 }
-input {
+.net3 input {
     border: 1px solid yellow;
     background-color: rgba(249, 249, 129, 0.5);
     border-radius: 5px;
@@ -69,7 +69,7 @@ main {
     display: flex;
     justify-content: space-between;
 }
-article {
+.net3 article {
     padding-left: 20px;
 }
 .section__desc {
@@ -81,3 +81,18 @@ article {
     max-width: 400px;
     margin: 0 auto;
 }
+
+.net4 article {
+    padding-right: 20px;
+}
+.net4 input {
+    border: 1px solid rgb(13, 67, 215);
+    background-color: rgba(42, 6, 246, 0.283);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.section__desc-text {
+    padding-left: 10px;
+}
+
+.
