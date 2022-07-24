@@ -82,6 +82,10 @@ main {
     margin: 0 auto;
 }
 
+.net4 main {
+    display: flex;
+    flex-direction: row-reverse;
+}
 .net4 article {
     padding-right: 20px;
 }
@@ -95,4 +99,22 @@ main {
     padding-left: 10px;
 }
 
-.
+.net5 article {
+    padding-right: 20px;
+}
+.net5 input {
+    border: 1px solid rgb(13, 215, 33);
+    background-color: rgba(10, 246, 6, 0.283);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.section__desc-text {
+    padding-left: 10px;
+}
+.net5 main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section__net5 {
+    padding-top: 20px;
+}
